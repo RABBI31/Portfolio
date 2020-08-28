@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Ali Rabbi</title>
+    <link rel="shortcut icon" href="resourcess/img/favicon.png" type="image/x-icon">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    
+    <!--Vendors CSS File-->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animated-circle.css">
+    <!--Resourcess CSS File-->
+    <link rel="stylesheet" type="text/css" href="resourcess/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resourcess/css/responsive.css">
+   
+    
+</head>
+<body>
+<!--Header section-->
+<header id="home">
+  <nav>
+    <div class="row">
+      <!--<a href="#home"> <img src="resourcess/img/logo.png" alt="Ali Rabbi" class="logo" >  </a>-->
+  
+    <ul class="main-nav">
+      <li  class="active"><a href="#home">Home</a></li>
+      <li><a href="#service">Service</a></li>
+     <!-- <li><a href="#team">Team</a></li>-->
+      <li><a href="#skill">Skill</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonial">testimonial</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="mobile-menu">
+      <span onclick="openNav()">&#9776</span>
+      <div id="myNav" class="overlay">
+      <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
+      <div class="overlay-content">
+        <a onclick="closeNav()" href="#home">Home</a>
+        <a onclick="closeNav()" href="#service">Service</a>
+        <a onclick="closeNav()" href="#team">Team</a>
+        <a onclick="closeNav()" href="#skill">Skill</a>
+        <a onclick="closeNav()" href="#portfolio">Portfolio</a>
+        <a onclick="closeNav()" href="#testimonial">testimonial</a>
+        <a onclick="closeNav()" href="#contact">contact</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  </nav>
+  <div class="row">
+    <div class="hero-text-box">
+      <h1>Hello Good people , Myself Ali Rabbi, A Full-stack Web developer also Database expert.</h1>
+      <a href="#contact" class="btn btn-hero" >Contact With me</a>
+    </div>
+  </div>
+</header>
+<!--Header section end-->
+<!--Services section start-->
+<section class="services-section js-service" id="service"> <!-- delete clearfix  class-->
+  <div class="row">
+    <h2>SERVICES I PROVIDE</h2>
+    
+  </div>
+  <div class="row">
+  <div class="col span_1_of_4 box">
+    <img src="resourcess/img/flag.png" alt="flag" class="service-icon">
+    <h3>Branding</h3>
+    
+  </div>
+  <div class="col span_1_of_4 box">
+    <img src="resourcess/img/crayon.png" alt="crayon" class="service-icon">
+    <h3>Design</h3>
+    
+  </div>
+  <div class="col span_1_of_4 box">
+    <img src="resourcess/img/gears.png" alt="gears" class="service-icon">
+    <h3>Development</h3>
+   
+  </div>
+  <div class="col span_1_of_4 box">
+    <img src="resourcess/img/rocket.png" alt="rocket" class="service-icon">
+    <h3>AI and ML</h3>
+    
+  </div>
+  </div> 
+</section>
+<!--Services section end-->
+<!--Team section start-->
+<!-- delete clearfix  class-->
+<!--<section class="team-section " id="team" > 
+  <div class="row">
+   <h2>Meet our brilliant Team</h2>
+   <p class="little-description">We are small team of designer and developers who helps brand with great idea </p>
+  </div>
+  <div class="row">
+    <div class="col span_1_of_4 box">
+      <img src="resourcess/img/1.jpg" alt="member_1" class="team-member">
+      <h3>ANNE HATHAWAY</h3>
+      <span class="role">CEO / Marketing Guru</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quasi quia nam consectetur veritatis magnam fugiat repellat </p>
+      <div class="social-link">
+       <ul>
+         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+         <li><a href="#"><i class="fab fa-twitter"></i></i</a></li>
+         <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+       </ul>
+      </div>
+    </div>
+  
+
+    <div class="col span_1_of_4 box">
+      <img src="resourcess/img/2.jpg" alt="member_1" class="team-member">
+      <h3>KATE UPTON</h3>
+      <span class="role">Creative Director</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quasi quia nam consectetur veritatis magnam fugiat repellat </p>
+      <div class="social-link">
+       <ul>
+         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+         <li><a href="#"><i class="fab fa-twitter"></i></i</a></li>
+         <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+       </ul>
+      </div>
+    </div>
+  
+    <div class="col span_1_of_4 box">
+      <img src="resourcess/img/3.jpg" alt="member_1" class="team-member">
+      <h3>OLIVIA WILDE</h3>
+      <span class="role">Lead Designer</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quasi quia nam consectetur veritatis magnam fugiat repellat </p>
+      <div class="social-link">
+       <ul>
+         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+         <li><a href="#"><i class="fab fa-twitter"></i></i</a></li>
+         <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+       </ul>
+      </div>
+    </div>
+    
+    <div class="col span_1_of_4 box">
+      <img src="resourcess/img/4.jpg" alt="member_1" class="team-member">
+      <h3>ASHLEY GREENE</h3>
+      <span class="role">SEO / Developer</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quasi quia nam consectetur veritatis magnam fugiat repellat </p>
+      <div class="social-link">
+       <ul>
+         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+         <li><a href="#"><i class="fab fa-twitter"></i></i</a></li>
+         <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+       </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Team section end-->
+<!--Skilll-->
+<section class="skill" id="skill">
+  <div class="row">
+    <h2>Skills</h2>
+    
+  </div>
+  <div class="row">
+    <div class="col span_1_of_4 box">
+      <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+      </svg>
+      <h3>WEB DESIGN</h3>
+    </div>
+    <div class="col span_1_of_4 box">
+      <svg class="radial-progress html-css" data-percentage="80" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+      </svg>
+      <h3>html / css</h3>
+    </div>
+    <div class="col span_1_of_4 box">
+      <svg class="radial-progress graphic" data-percentage="70" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+      </svg>
+      <h3>React</h3>
+    </div>
+    <div class="col span_1_of_4 box">
+      <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+      </svg>
+      <h3>JavaScript</h3>
+    </div>
+  </div>
+
+</section>
+
+<!--skill end-->
+<!--Portfolio Section-->
+ <section class="portfolio" id="portfolio">
+   <div class=".row">
+     <h2>My Portfolio</h2>
+     
+     
+   </div>
+   <div class="row">
+     <div class="portfolio-filter">
+       <button type="button" data-filter="all">All</button>
+       <button type="button"data-filter=".web">Web Development</button>
+       <button type="button"data-filter=".apps">Mobile Application</button>
+       <button type="button"data-filter=".other">Others</button>
+     </div>
+   </div>
+   <div class="row container">
+     <div class="col span_1_of_2 box mix web apps">
+       <img href="https://github.com/RABBI31/Jumping-Ball" src="resourcess/img/portfolio1.png"  alt="Portfolio-1" class="portfolio-image">
+       <a href="https://thebitcode.com/" target="_blank">The BitCode</a>
+     </div>
+     <div class="col span_1_of_2 box mix web">
+      <img src="resourcess/img/portfolio2.png" alt="Portfolio-2" class="portfolio-image">
+      <a href="https://github.com/RABBI31/Final-Digital-Tran"target="_blank">Digital Tran Project</a>
+    </div>
+   
+    <div class="col span_1_of_2 box mix web ">
+      <img src="resourcess/img/portfolio3.png" alt="Portfolio-3" class="portfolio-image">
+      <a href="https://github.com/RABBI31/TodoList"target="_blank">ToDo List</a>
+    </div>
+    <div class="col span_1_of_2 box mix  web ">
+     <img src="resourcess/img/portfolio4.png" alt="Portfolio-4" class="portfolio-image">
+     <a href="https://github.com/RABBI31/Jumping-Ball"target="_blank">Jumping Ball</a>
+   </div>
+  </div>
+  <!-- load more buuton
+  <div class="row">
+    <a href="#" class="btn btn-load-more">Load more projects</a>
+  </div>-->
+ </section>
+
+
+
+<!--Portfolio end-->
+
+<!--Testimonial start-->
+<section class="testimonial" id="testimonial" >
+  <div class="row">
+    <h2>What people say about me</h2>
+    <p class="little-description">My Client Love me!</p>
+  </div>
+  <div class="row">
+    <div class="col span_1_of_2 box">
+      <div class="client_photo">
+        <!--<img src="resourcess/img/1.jpg" alt="Channel Imam"> -->
+      </div>
+      <div class="client_review">
+        <p>
+          He is a very hard-working guy. His work is very much impreesive. Best of luckk for your fututre. 
+        </p>
+        <h3>Farhad Hossain</h3>
+        <span class="role">CEO of WTSolvers</span>
+      </div>
+    </div>
+    <div class="col span_1_of_2 box">
+      <div class="client_photo">
+       <!-- <img src="resourcess/img/2.jpg" alt="Channel Imam"> -->
+      </div> 
+      <div class="client_review">
+        <p>
+          Brilliant work. You will have a bright future. 
+        </p>
+        <h3>Zulkar Nayin</h3>
+        <span class="role">CEO of NTL Ninja</span>
+      </div>
+    </div>
+    <div class="col span_1_of_2 box">
+      <div class="client_photo">
+        <!--<img src="resourcess/img/3.jpg" alt="Channel Imam"> -->
+      </div>
+      <div class="client_review">
+        <p>
+          Very much talented boy.He has very good thinking power. His vision is so good.
+        </p>
+        <h3>Asadullah Galib</h3>
+        <span class="role">CEO of GreenSoft</span>
+      </div>
+    </div>
+    <div class="col span_1_of_2 box">
+      <div class="client_photo">
+        <!--<img src="resourcess/img/4.jpg" alt="Channel Imam"> -->
+      </div>
+     <div class="client_review">
+        <p>
+           He is very much focus in his work. His work is much impessive and color combination are very good.
+        </p>
+        <h3>Rihab Rahman</h3>
+        <span class="role">CEO of Career Portal</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Testipomial  end-->
+
+<!--Contact  start-->
+<section class="contact" id="contact">
+  <div class="row">
+    <h2>Get In Touch</h2>
+    <p class="little-description">Gmail : 44salamrab@gmail.com</p>
+    <p class="little-description">Phone no : 01779517945 , 01997756754</p>
+  </div>
+  <div class="row">
+    <form action="https://formspree.io/44salamrab@gmail.com" method="POST">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <input type="text" name="Name" placeholder=" Your Name *" required>
+          
+        </div>
+        <div class="col span_1_of_2">
+          <input type="email" name="Email" placeholder=" Your email *" required>
+        </div>
+      </div>
+      <div class="row">
+         <textarea name="Message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+      </div>
+      <div class="row">
+        <input type="submit" value="SEND MESSAGE" class="btn btn-submit">
+      </div>
+    </form>
+  </div>
+  <div class="social-link">
+    <ul>
+      <li><a href="https://www.facebook.com/profile.php?id=100007277297662" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://twitter.com/44salamrab"  target="_blank"><i class="fab fa-twitter"></i></i</a></li>
+      <li><a href="https://www.linkedin.com/in/ali-rabbi-50560618a/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      
+    </ul>
+   </div>
+</section>
+
+<!--Contact  end-->
+<!-- footer Start-->
+<div class="footer">
+  <div class="row">
+  <ul>
+    <li><a href="#">facebook</a></li>
+    <li><a href="#">Linkedin</a></li>
+    <li><a href="#">Github</a></li>
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Stack OverFlow</a></li>
+    <li><a href="#">Google+</a></li>
+  </ul>
+  </div>
+</div>
+<!--Footer   end-->
+
+
+<!--Using jquery plugin fron JqueryScript.net-->
+
+<!-- js Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--Jquery google hosted cdn-->
+  <script src="vendors/js/html5shiv-min.js"></script>
+  <script src="vendors/js/mixitup.min.js"></script>
+  <script src="vendors/js/respond-min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="vendors/js/selectivizr-min.js"></script>
+  <script src="https://kit.fontawesome.com/e1723e2b83.js" crossorigin="anonymous"></script>
+  <script src="vendors/js/animated-circle.js"></script>
+  <script src="resourcess/js/main.js"></script>
+
+</body>
+</html>

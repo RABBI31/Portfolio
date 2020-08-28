@@ -1,0 +1,101 @@
+@media only screen and (max-width:1024px){
+    .mobile-menu span{
+        display: block;
+    }
+    .row{
+        margin: 0.15rem;
+    }
+    .hero-text-box{
+        width: 90%;
+    
+        
+     }
+    .main-nav
+    {
+        display: none;
+    }
+    html
+    {
+        font-size: 55.5%;
+    }
+    .client_photo
+    {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client_review
+    {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+ @media only screen and (max-width:980px){
+     .span_1_of_4{
+         width: 49.2%;
+     }
+     .span_1_of_4:nth-child(3){
+         margin-left: 0;
+     }
+     html{
+         font-size: 62.5%;
+     }
+ }
+ @media only screen and (max-width:780px){
+     header{
+         height: 55vh;
+     }
+   h1{
+       font-size: 3.5rem;
+   }
+   h2{
+    font-size: 3rem;
+    }
+  h3{
+    font-size: 2rem;
+    }
+    .span_1_of_2:nth-child(2){
+        margin-left: 0;
+    }
+    html{
+        font-size: 55%;
+    }
+  
+}
+@media only screen and (max-width:480px){
+    header{
+        height: 65vh;
+    }
+    
+    .span_1_of_4{
+        width: 92%;
+    }
+ 
+    .portfolio-filter{
+        margin: 1rem;
+    }
+    html{
+        font-size: 50%;
+    }
+    .testimonial .col:nth-child(3),
+.testimonial .col:nth-child(4) {
+    margin-top: 4rem;
+}
+header{
+    background-position: center;
+}
+.hero-text-box{
+    margin-block-end: unset;
+    position: absolute;;
+    text-align: center;
+    
+    
+
+}
+}
